@@ -1,8 +1,8 @@
 {
-	"functions": {
-		"api/**/*.[jt]s": {
-			"runtime": "vercel-deno@2.0.1",
-			"includeFiles": "data/**"
-		}
-	}
+  "functions": {
+    "api/**/*.[jt]s": {
+      "runtime": "vercel-deno@2.0.1",
+      "includeFiles": "data/**"
+    }
+  }
 }
