@@ -1,5 +1,6 @@
-import { ServerRequest } from '../deps.ts'
+import { ServerRequest } from "../deps.ts";
 
-export default (req: ServerRequest) => req.respond({
-	body: 'Hello World'
-})
+export default (req: ServerRequest) =>
+  req.respond({
+    body: "Hello World",
+  });
